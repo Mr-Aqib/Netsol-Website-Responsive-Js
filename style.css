@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.maindiv
+{
+/* background-color: blue; */
+}
+
+.arrow-icon-animation
+{
+    
+    transition: all .2s linear;
+transform: rotate(180deg);
+}
+
+.lang-list{
+    display: none;
+   transition: all .5s;
+   cursor: pointer;
+}
+.lang-list-animation
+{
+    display: block;
+    animation: move .3s linear;
+}
+@keyframes move {
+    to
+    {
+transform: translateY(0px);
+
+    }
+    from
+    {
+        transform: translateY(40px);
+    }
+    
+}
