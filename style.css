@@ -48,3 +48,20 @@ transform: translateY(0px);
     background-color: wheat;
 
 }
+.menu-lines-animation{
+
+}
+.menu-line2-animation
+{
+    display: none;
+}
+.menu-line1-animation
+{
+    transform:translateY(15px) rotate(-135deg);
+    transition: all .3s;
+}
+.menu-line3-animation
+{
+    transform:translateY(9px) rotate(140deg);
+    transition: all .3s;
+}
