@@ -5,7 +5,7 @@
 }
 .maindiv
 {
-/* background-color: blue; */
+    background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
 }
 
 .arrow-icon-animation
@@ -43,8 +43,8 @@ transform: translateY(0px);
 }
 .menu-line
 {
-    height: 2%;
-    width: 40%;
+    height: 2px;
+    width: 40px;
     background-color: wheat;
 
 }
