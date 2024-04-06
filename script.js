@@ -20,13 +20,13 @@ langli.forEach((languges)=>
 })
 menulinesdiv.addEventListener('click',()=>
 {
-    if(menutext.innerHTML=='Menu')
+    if(menutext.innerHTML=='Close')
     {
-        menutext.innerHTML='Close'
+        menutext.innerHTML='Menu'
     }
     else
     {
-        menutext.innerHTML='Menu'
+        menutext.innerHTML='Close'
     }
  menulines[0].classList.toggle('menu-line1-animation')
  menulines[1].classList.toggle('menu-line2-animation')

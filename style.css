@@ -3,7 +3,7 @@
     padding: 0 !important;
     margin: 0 !important;
 }
-.maindiv
+.maindiv,.sidebar
 {
     background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
 }
@@ -64,4 +64,9 @@ transform: translateY(0px);
 {
     transform:translateY(9px) rotate(140deg);
     transition: all .3s;
+}
+.menu-items :hover
+{
+    cursor: pointer;
+
 }
