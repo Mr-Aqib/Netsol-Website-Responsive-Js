@@ -48,9 +48,7 @@ transform: translateY(0px);
     background-color: wheat;
 
 }
-.menu-lines-animation{
 
-}
 .menu-line2-animation
 {
     display: none;
@@ -65,8 +63,35 @@ transform: translateY(0px);
     transform:translateY(9px) rotate(140deg);
     transition: all .3s;
 }
-.menu-items :hover
+.menu-items
+{
+    transition: all .3s;
+}
+.menu-items:hover
 {
     cursor: pointer;
-
+    color: #19729C;
+}
+.menu-item-items
+{
+    display: none ;
+}
+.menu-item-ani
+{
+    display: block !important;
+}
+.menu-item-items1
+{
+    display: none;
+}
+.sidebar-animation
+{
+    transform: translateX(0%);
+}
+.sidebar
+{
+   
+    transition: all 0.7s cubic-bezier(.02, .55, .83, .64);
+    transform: translateX(-100%);
+      
 }
