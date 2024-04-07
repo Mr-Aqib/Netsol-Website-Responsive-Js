@@ -8,7 +8,7 @@ let menulines = document.querySelectorAll('.menu-line')
 let menuitems = document.querySelectorAll('.menu-items')
 let menuitemitems = document.querySelectorAll('.menu-item-items')
 let menuitemitems1 = document.querySelector('.menu-item-items1')
-let sidebar = document.querySelector('.sidebar')
+let sidebar=document.querySelector('.sidebar')
 arrowicon.addEventListener('click', () => {
     arrowicon.classList.toggle('arrow-icon-animation')
     langlist.classList.toggle('lang-list-animation')
@@ -29,7 +29,8 @@ menulinesdiv.addEventListener('click', () => {
     menulines[0].classList.toggle('menu-line1-animation')
     menulines[1].classList.toggle('menu-line2-animation')
     menulines[2].classList.toggle('menu-line3-animation')
-    sidebar.classList.toggle('sidebar-animation')
+    sidebar.classList.toggle('sidebar-anim')
+    
 })
 
 

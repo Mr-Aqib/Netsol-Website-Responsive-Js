@@ -84,14 +84,31 @@ transform: translateY(0px);
 {
     display: none;
 }
-.sidebar-animation
-{
-    transform: translateX(0%);
-}
+
 .sidebar
 {
    
     transition: all 0.7s cubic-bezier(.02, .55, .83, .64);
     transform: translateX(-100%);
       
+}
+.sidebar-anim{
+    transform: translateX(0%);
+}
+
+@media only screen and (max-width:900px)
+{
+    .lang-div
+    {
+        color:  black;
+    }
+    .textmain-div
+    {
+        text-align: center;
+    }
+    .text-proud
+    {
+width: 100%;
+text-align: center;
+    }
 }
