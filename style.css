@@ -104,11 +104,19 @@ transform: translateY(0px);
     }
     .textmain-div
     {
+        
         text-align: center;
+        width: 100%;
     }
-    .text-proud
+    .textmain-div p
     {
-width: 100%;
-text-align: center;
+        width: 100% !important;
     }
+    .menu-lines-div
+    {
+        right: 90px;
+        margin-bottom: -20px;
+
+    }
+    
 }
