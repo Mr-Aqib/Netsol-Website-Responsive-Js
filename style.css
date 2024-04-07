@@ -96,7 +96,7 @@ transform: translateY(0px);
     transform: translateX(0%);
 }
 
-@media only screen and (max-width:900px)
+@media only screen and (max-width:950px)
 {
     .lang-div
     {
@@ -115,8 +115,29 @@ transform: translateY(0px);
     .menu-lines-div
     {
         right: 90px;
-        margin-bottom: -20px;
+        margin-bottom: 15px !important;
 
     }
+    .sidebar-btns button
+    {
+        display: none;
+    }
+
+   .menu-items-div 
+   {
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+
+   }
+   .menu-item-home
+
+   {
+   
+    margin-left: 20px !important;
+   }
+   .menu-ul-div .menu-ul
+   {
+    color: black !important;
+   }
     
 }
